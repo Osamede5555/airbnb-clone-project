@@ -27,71 +27,91 @@ Identifying design properties such as **colors, typography, and spacing** in a m
 - It speeds up development by using a **design system** instead of random styles.  
 - It improves **user experience (UX)** by creating a clean and familiar look.
 
-
-
-
-
 ### 3. Project Roles and Responsibilities  
-Successful delivery of the Airbnb Clone depends on effective collaboration across multiple roles. Each team member contributes unique skills and responsibilities to ensure the project’s success.  
+
+To ensure the successful delivery of the **Airbnb Clone Project**, the following roles and responsibilities are defined:  
 
 ### 1. Project Manager  
-- Oversees the project timeline, scope, and deliverables.  
-- Coordinates between frontend, backend, and design teams.  
-- Manages risks, resolves conflicts, and ensures smooth progress.  
+- **Definition:** Oversees the planning and execution of the project.  
+- **Responsibilities:**  
+  - Manage timelines, milestones, and deliverables.  
+  - Coordinate communication across all teams.  
+  - Resolve risks and blockers that may delay development.  
 
-### 2. Frontend Developers  
-- Implement the user interface using **React, Next.js, and Tailwind/MUI**.  
-- Ensure the web app is **responsive, accessible, and user-friendly**.  
-- Collaborate with UI/UX designers to translate mockups into functional UI components.  
+### 2. Product Owner  
+- **Definition:** Represents the end-users and stakeholders.  
+- **Responsibilities:**  
+  - Define the vision of the Airbnb clone.  
+  - Prioritize key features such as property listings, booking, authentication, and payments.  
+  - Maintain and refine the product backlog.  
 
-### 3. Backend Developers  
-- Build and maintain the **server-side logic and database (MySQL/PostgreSQL)**.  
-- Develop secure and scalable **RESTful APIs** for data exchange.  
-- Handle **authentication, bookings, payments, and performance optimization**.  
+### 3. Scrum Master  
+- **Definition:** Facilitates the Agile development process.  
+- **Responsibilities:**  
+  - Organize standups, sprint planning, and retrospectives.  
+  - Ensure Agile best practices are followed.  
+  - Help remove obstacles for the team.  
 
-### 4. UI/UX Designers  
-- Create **wireframes, mockups, and prototypes in Figma**.  
-- Define **color schemes, typography, and design guidelines**.  
-- Ensure the design is **intuitive, modern, and consistent with Airbnb’s style**.  
+### 4. Frontend Developers  
+- **Definition:** Build the user-facing part of the Airbnb clone.  
+- **Responsibilities:**  
+  - Implement responsive UI with React + Tailwind/MUI.  
+  - Integrate frontend with backend APIs.  
+  - Develop pages for property search, booking forms, and user dashboards.  
 
-### 5. QA/Testers  
-- Test functionality across **browsers, devices, and screen sizes**.  
-- Identify and report **bugs, usability issues, and performance bottlenecks**.  
-- Validate that features meet acceptance criteria before deployment.  
+### 5. Backend Developers  
+- **Definition:** Handle the server-side logic and data.  
+- **Responsibilities:**  
+  - Create REST APIs with Node.js/Express.  
+  - Manage database for users, properties, and reservations.  
+  - Implement authentication, authorization, and payment handling.  
 
-### 6. DevOps Engineers  
-- Manage **CI/CD pipelines, deployment, and hosting environments (Vercel/Render/AWS)**.  
-- Automate **build, test, and release** workflows.  
-- Monitor **application performance, uptime, and scalability**.  
+### 6. UI/UX Designers  
+- **Definition:** Design the user experience and interface.  
+- **Responsibilities:**  
+  - Produce wireframes and prototypes in Figma.  
+  - Define style guides, typography, and colors.  
+  - Ensure the app is intuitive, visually consistent, and user-friendly.  
 
-### 7. Product Owner  
-- Defines the **vision, goals, and priorities** for the Airbnb Clone.  
-- Collects requirements from stakeholders and translates them into user stories.  
-- Ensures the final product **aligns with user needs and business objectives**.  
+### 7. QA/Testers  
+- **Definition:** Ensure the product meets quality standards.  
+- **Responsibilities:**  
+  - Test booking flows, property search, and payment processes.  
+  - Perform manual and automated testing.  
+  - Report and track bugs.  
 
-### 8. Scrum Master  
-- Facilitates **Agile ceremonies** (standups, sprint planning, retrospectives).  
-- Removes **obstacles and blockers** that hinder progress.  
-- Promotes **Agile best practices and continuous improvement**.  
+### 8. DevOps Engineers  
+- **Definition:** Manage deployment, hosting, and scalability.  
+- **Responsibilities:**  
+  - Set up CI/CD pipelines.  
+  - Deploy to cloud platforms (Vercel, Render, AWS).  
+  - Monitor performance and ensure high availability.
+ 
 
----
 
-## 🎨 UI Component Patterns  
-Reusable UI components are essential for building a **consistent, scalable, and user-friendly interface**. Below are the planned components for the Airbnb Clone:  
+### 4. UI Component Patterns  
 
-### 🔹 Navbar  
-- Provides **navigation** across main sections (Home, Listings, Bookings, Profile).  
-- Stays **consistent on all pages** (desktop & mobile).  
-- Includes **search functionality, login/signup, and user profile menu**.  
+To build a consistent and reusable interface for the **Airbnb Clone Project**, the following UI components are planned:  
 
-### 🔹 Property Card  
-- Displays property previews in the **Listings page**.  
-- Includes **image, price, location, rating, and short description**.  
-- Clickable to navigate to the **Property Detail page**.  
+### 1. Navbar  
+- Provides global navigation across the application.  
+- Includes links to Home, Search, Listings, and User Profile.  
+- Responsive design with a mobile menu toggle.  
 
-### 🔹 Footer  
-- Contains links to **About, Contact, Help, Terms & Privacy**.  
-- Displays **social media icons and branding information**.  
-- Designed to remain **lightweight and accessible**.  
+### 2. Property Card  
+- Displays property details such as image, name, price per night, and location.  
+- Includes actions like “View Details” and “Book Now.”  
+- Designed for use in property listing pages and search results.  
 
----
+### 3. Footer  
+- Contains links to About, Contact, Help Center, and Terms & Privacy.  
+- Provides quick access to support and legal information.  
+- Remains consistent across all pages.  
+
+ These components form the foundation of the Airbnb Clone UI, ensuring **reusability, responsiveness, and a seamless user experience**.  
+
+
+
+
+
+
